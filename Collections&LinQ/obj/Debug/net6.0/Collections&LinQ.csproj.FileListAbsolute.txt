@@ -1,0 +1,14 @@
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\bin\Debug\net6.0\Collections&LinQ.exe
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\bin\Debug\net6.0\Collections&LinQ.deps.json
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\bin\Debug\net6.0\Collections&LinQ.runtimeconfig.json
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\bin\Debug\net6.0\Collections&LinQ.dll
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\bin\Debug\net6.0\Collections&LinQ.pdb
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.AssemblyInfoInputs.cache
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.AssemblyInfo.cs
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.csproj.CoreCompileInputs.cache
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.dll
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\refint\Collections&LinQ.dll
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.pdb
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\Collections&LinQ.genruntimeconfig.cache
+C:\Users\Nebesnyi\Desktop\Collections&LinQ\obj\Debug\net6.0\ref\Collections&LinQ.dll
