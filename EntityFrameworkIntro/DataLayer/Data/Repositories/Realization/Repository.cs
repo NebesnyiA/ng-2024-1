@@ -1,6 +1,8 @@
 ﻿using DataLayer.Data.Infrastructure;
 using DataLayer.Data.Repositories.Interfaces;
 using DataLayer.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace DataLayer.Data.Repositories.Realization
 {
@@ -38,6 +40,11 @@ namespace DataLayer.Data.Repositories.Realization
         public IQueryable<TEntity> GetAll()
         {
             return _dbContext.Set<TEntity>();
+        }
+
+        public async Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression)
+        {
+            return await _dbContext.Set<TEntity>().Where(expression).ToListAsync();
         }
 
         public async Task<TEntity> Update(TEntity entity)

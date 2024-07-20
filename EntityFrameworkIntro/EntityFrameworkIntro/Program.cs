@@ -1,3 +1,4 @@
+using BLL.Extensions;
 using DataLayer;
 using DataLayer.Data.Infrastructure;
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDataAccessLayer(configuration);
+builder.Services.AddBusinessLogicLayer();
 
 var app = builder.Build();
 

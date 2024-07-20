@@ -1,4 +1,5 @@
 ﻿using DataLayer.Entities;
+using System.Linq.Expressions;
 
 namespace DataLayer.Data.Repositories.Interfaces
 {
@@ -8,6 +9,7 @@ namespace DataLayer.Data.Repositories.Interfaces
         Task<TEntity> Update(TEntity entity);
         Task<TEntity> Create(TEntity entity);
         Task<TEntity> Find(Guid id);
+        Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression);
         IQueryable<TEntity> GetAll();
     }
 }
